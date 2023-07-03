@@ -9,5 +9,5 @@ post_data = {
     "price": 1000.00,
 }
 
-post_response = requests.post(endpoint, json=post_data)
-print(post_response.json())
+response = requests.post(endpoint, json=post_data)
+print(response.json())
